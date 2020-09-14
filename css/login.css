@@ -1,0 +1,87 @@
+/*
+    SCSS Login form 
+*/
+body {
+  background: url("../img/wallpaper.jpg");
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 98vh;
+}
+
+.container .content {
+  height: 50vh;
+  width: 50vh;
+}
+
+.container .content .form-title h1 {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.container .content .form-group .input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  background: none;
+  border-bottom: white solid 2px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: white;
+  font-size: large;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.container .content .form-group .input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: 95%;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.container .content .form-group .form-btn {
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+}
+
+.container .content .form-group .form-btn .btn {
+  background: none;
+  border: solid white 1px;
+  color: white;
+  font-size: x-large;
+  padding: 8px 60px 8px 60px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.container .content .form-group .form-btn .btn:hover {
+  cursor: pointer;
+  padding: 9px 65px 9px 65px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.container .content .form-group .form-btn .fill {
+  background: #e17055;
+  border: none;
+}
+/*# sourceMappingURL=login.css.map */

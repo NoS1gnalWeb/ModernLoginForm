@@ -1,0 +1,81 @@
+/*
+    SCSS Login form 
+*/
+
+body{background: url('../img/wallpaper.jpg');}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+
+    // Login
+    .content{
+        height: 50vh;
+        width: 50vh;
+
+        .form-title{
+            h1{
+                text-align: center;
+                color:white;
+                font-family: sans-serif;
+                font-weight: lighter;
+                text-transform: uppercase;
+            }
+        }
+
+        .form-group{
+            .input{
+                width: 90%;
+                padding: 10px;
+                margin:10px;
+                background: none;
+                border-bottom: white solid 2px;
+                border-left:none;
+                border-right: none;
+                border-top:none;
+                color:white;
+                font-size: large;
+                box-shadow: none;
+                transition: .5s;
+
+                // Animation focus
+                &:focus{
+                    box-shadow: none;
+                    width: 95%;
+                    transition: .5s;
+                }
+            }
+
+            .form-btn{
+                text-align: center;
+                margin: 50px 0px 0px 0px;
+
+                .btn{
+                    background: none;
+                    border:solid white 1px;
+                    color:white;
+                    font-size: x-large;
+                    padding:8px 60px 8px 60px;
+                    text-transform: uppercase;
+                    font-weight: lighter;
+                    transition: .5s;
+
+                    //Animation hover
+                    &:hover{
+                        cursor: pointer;
+                        padding: 9px 65px 9px 65px;
+                        transition: .5s;
+                    }
+                }
+
+                // Fill button
+                .fill{
+                    background: #e17055;
+                    border:none;
+                }
+            }
+        }
+    }
+}
